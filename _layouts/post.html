@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    Written on
+    <time datetime="{{ page.date | date: '%Y-%m-%dT%T' }}">{{ page.date | date: "%B %e, %Y" }}</time>
+  </div>
+</article>
