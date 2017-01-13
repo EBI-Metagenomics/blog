@@ -301,6 +301,11 @@ nav {
   background: $blue;
   padding: 0.1em 0.5em;
   border-radius: 1em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 .wrapper-footer {
