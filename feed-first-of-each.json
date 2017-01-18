@@ -7,6 +7,13 @@
   {% assign post = category[1] | first %}
   "title": "{{ post.title | escape }}",
   "url": "//{{ site.url }}{{ site.baseurl }}{{ post.url }}",
+  {% assign images = post.content | split: '<img ' %}
+  {% for image in images %}
+    {% if image contains 'src="' %}
+  "image": "//{{ site.url }}{{ image | split: '/>' | first | split: 'src="' | last | split: '"' | first }}",
+      {% break %}
+    {% endif %}
+  {% endfor %}
   "excerpt": "{{ post.excerpt | replace: 'src="/', replacer | replace: '
 ', ' ' | escape }}",
   "category": "{{ post.category }}"{% if post.emg %},
