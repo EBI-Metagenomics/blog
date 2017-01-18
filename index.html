@@ -7,16 +7,22 @@ layout: default
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <p class="category">{{ post.category }}</p>
+      <a class="badge" href="{{ site.baseurl }}/categories/{{ post.category }}">
+        {{ post.category }}
+      </a>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
       <div>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+          Read More
+        </a>
         {% if post.emg %}
-          <a href="{{ post.emg.url }}" class="read-more" style="float: right;">{{ post.emg.text }}</a>
+          <a href="{{ post.emg.url }}" class="read-more" style="float: right;">
+            {{ post.emg.text }}
+          </a>
         {% endif %}
       </div>
     </article>
