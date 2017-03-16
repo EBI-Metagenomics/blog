@@ -16,7 +16,8 @@
   {% endfor %}
   "excerpt": "{{ post.excerpt | replace: 'src="/', replacer | replace: '
 ', ' ' | escape }}",
-  "category": "{{ post.category }}"{% if post.emg %},
+  "category": "{{ post.category }}"{% if post.author %},
+  "author": "{{ post.author | escape }}"{% endif %}{% if post.emg %},
   "published": "{{ post.date | json }}",
   "emg": {
     "text": "{{ post.emg.text | escape }}",
