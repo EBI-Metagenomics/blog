@@ -1,5 +1,7 @@
 ---
 published: false
+category: spotlight
+layout: post
 ---
 ## One Thousand Publicly Available Projects
 This week, EBI Metagenomics hit a major milestone as we passed over one thousand
@@ -9,5 +11,5 @@ sequences from a wide range of environmental biomes.
 
 We would like to thank all of our users for their support and feedback, particularly our
 submitters who have provided their data for analysis. As metagenomic data grows at
-an ever-increasing rate, we look forward to supporting the analysis of the next 1000
+an ever-increasing rate, we look forward to supporting the analysis of the next 1,000
 projects and beyond.
