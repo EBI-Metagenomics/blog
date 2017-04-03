@@ -1,7 +1,7 @@
 ---
 published: false
 ---
-## A New Post
+## One Thousand Publicly Available Projects
 This week, EBI Metagenomics hit a major milestone as we passed over one thousand
 publicly available projects on the site. This corresponds to over 60,000 samples, comprising
 more than 80,000 individual runs, and represents the analysis of over 300 billion nucleotide
