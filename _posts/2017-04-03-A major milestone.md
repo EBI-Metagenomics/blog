@@ -3,6 +3,7 @@ published: true
 category: spotlight
 layout: post
 ---
+![ico_celebration_EMGblog_01.png]({{site.baseurl}}/assets/media/images/posts/ico_celebration_EMGblog_01.png)
 ## One Thousand Publicly Available Projects
 This week, EBI Metagenomics hit a major milestone as we passed over one thousand
 publicly available projects on the site. This corresponds to over 60,000 samples, comprising
