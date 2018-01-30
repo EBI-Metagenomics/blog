@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: spotlight
 emg:
   text: Annotation Pipeline v4.1
