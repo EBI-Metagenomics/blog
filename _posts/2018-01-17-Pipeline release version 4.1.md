@@ -1,6 +1,10 @@
 ---
 published: false
 category: spotlight
+emg:
+  text: Annotation Pipeline v4.1
+  url: >-
+    http://emg-docs.readthedocs.io/en/v4.1/analysis.html
 layout: post
 ---
 ![ico_pipeline_version_newnumber_01.png]({{site.baseurl}}/assets/media/images/posts/ico_pipeline_version_newnumber_01.png)
