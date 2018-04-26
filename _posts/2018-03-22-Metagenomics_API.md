@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: tools
 emg:
   text: Metagenomics REST API
