@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: tools
 emg:
   text: Metagenomics Toolkit
@@ -21,4 +21,4 @@ or use it directly from within your Python script:
 
 We will add more useful tools to help processing metadata and annotations in the future. 
 
-Metadata Matters!
+Metadata matters!
