@@ -2,9 +2,9 @@
 published: true
 category: tools
 emg:
-  text: Metagenomics Toolkit
+  text: Download metadata!
   url: >-
-    https://github.com/EBI-metagenomics/emg-toolkit
+    https://pypi.org/project/mg-toolkit/
 layout: post
 ---
 ![Python script]({{site.baseurl}}/assets/media/images/posts/ico_code_EMG_grey.png)
