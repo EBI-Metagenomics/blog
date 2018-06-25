@@ -9,7 +9,7 @@ name: EBI Metagenomics
 description: Articles
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /ebi-metagenomics-blog/assets/media/images/logo.png
+avatar: /blog/assets/media/images/logo.png
 
 #
 # Flags below are optional
@@ -19,8 +19,8 @@ avatar: /ebi-metagenomics-blog/assets/media/images/logo.png
 footer-links:
   email:
   github: EBI-Metagenomics
-  rss: /ebi-metagenomics-blog/feed.xml
-  twitter: ebimetagenomics
+  rss: /blog/feed.xml
+  twitter: MGnifyDB
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
@@ -28,13 +28,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: EBI-Metagenomics.github.io
+url: EBI-metagenomics.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/ebi-metagenomics-blog"
+baseurl: "/blog"
 
 #
 # !! You don't need to change any of the configuration flags below !!
