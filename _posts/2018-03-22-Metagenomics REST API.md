@@ -105,7 +105,10 @@ or using 3rd party Python client jsonapi-client and pandas to export data to CSV
     API_BASE = 'https://www.ebi.ac.uk/metagenomics/api/latest/'
 
     with Session(API_BASE) as s:
-    df = DataFrame(columns=('sample_name', 'biome', 'feature', 'material', 'longitude', 'latitude'))
+        df = DataFrame(
+            columns=
+                ('sample_name', 'biome', 'feature', 'material', 'longitude', 'latitude')
+        )
         df.index.name = 'accession'
 
         params = {
@@ -114,14 +117,14 @@ or using 3rd party Python client jsonapi-client and pandas to export data to CSV
         }
         f = Filter(params)
         for sample in s.iterate('samples', f):
-    df.loc[sample.accession] = [
-            sample.sample_name,
-            sample.environment_biome,
-            sample.environment_feature,
-            sample.environment_material,
-            sample.longitude,
-            sample.latitude,
-        ]
+            df.loc[sample.accession] = [
+                sample.sample_name,
+                sample.environment_biome,
+                sample.environment_feature,
+                sample.environment_material,
+                sample.longitude,
+                sample.latitude,
+            ]
     df.to_csv('output.csv')
 
 For more examples, try our sample Jupyter notebook [https://github.com/EBI-metagenomics/emgapi-examples/blob/master/emgapi/examples/notebook/answers/ANSWER_examples.ipynb](https://github.com/EBI-metagenomics/emgapi-examples/blob/master/emgapi/examples/notebook/answers/ANSWER_examples.ipynb)
