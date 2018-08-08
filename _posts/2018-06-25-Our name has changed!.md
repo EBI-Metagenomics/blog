@@ -4,7 +4,7 @@ category: spotlight
 emg:
   text: EBI Metagenomics becomes MGnify
   url: >-
-    https://www.ebi.ac.uk/metagenomics/beta/
+    https://www.ebi.ac.uk/metagenomics/
 layout: post
 ---
 ![icons_job_EMG_grey.png]({{site.baseurl}}/assets/media/images/posts/icons_job_EMG_grey.png) 
