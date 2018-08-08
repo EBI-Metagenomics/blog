@@ -15,4 +15,4 @@ As ever, we have been busy investigating ways to improve things still further, a
 
 Changes to the pipeline include an update to SeqPrep (v1.2) and a fix to an issue we were seeing with the merging of longer paired-end reads. The new release also contains an update to the latest version of MAPseq (v1.2.2) and to the SSU and LSU taxonomic reference databases. These are now based on SILVA 132 and give improved taxonomic classification. Finally, we have fixed an issue in the RNA identification step where predicted RNAs on the reverse strand were not being masked before the protein coding sequence prediction step.
 
-If you would like an existing analysis to be upgraded to version 4.1 of the pipeline, please get in touch via https://www.ebi.ac.uk/support/metagenomics.
+If you would like an existing analysis to be upgraded to version 4.1 of the pipeline, please get in touch via [https://www.ebi.ac.uk/support/metagenomics](https://www.ebi.ac.uk/support/metagenomics).
