@@ -2,9 +2,9 @@
 published: true
 category: tools
 emg:
-  text: Metagenomics REST API
+  text: MGnify REST API
   url: >-
-    https://github.com/EBI-metagenomics/emgapi
+    https://www.ebi.ac.uk/metagenomics/api/
 layout: post
 ---
 ![Python script]({{site.baseurl}}/assets/media/images/posts/ico_code_EMG_grey.png)
@@ -17,11 +17,12 @@ Want to perform comprehensive meta-analysis of samples from publicly available m
     {
         "data": {
             "type": "studies",
-            "id": "ERP001736",
+            "id": "MGYS00000410",
             "attributes": {
                 "samples-count": 136,
+                "accession": "MGYS00000410",
                 "bioproject": "PRJEB1787",
-                "accession": "ERP001736",
+                "secondary-accession": "ERP001736",
                 "centre-name": "GSC",
                 "public-release-date": null,
                 "study-abstract": "Seawater was filtered from different depths to retain small cell sizes (Bacteria Organisms). The DNA was extracted and submitted to high throughput sequencing.",
@@ -30,68 +31,73 @@ Want to perform comprehensive meta-analysis of samples from publicly available m
                 "last-update": "2016-01-20T14:12:06"
             },
             "relationships": {
-                "studies": {
+                "geocoordinates": {
                     "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/studies"
-                    },
-                    "data": [
-                        {
-                            "type": "studies",
-                            "id": "ERP104174",
-                            "links": {
-                                "self": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP104174"
-                            }
-                        }
-                    ],
-                    "meta": {
-                        "count": 1
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/geocoordinates"
+                    }
+                },
+                "analyses": {
+                    "links": {
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/analyses"
                     }
                 },
                 "biomes": {
                     "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/biomes"
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/biomes"
+                    },
+                    "meta": {
+                        "count": 1
                     },
                     "data": [
                         {
                             "type": "biomes",
                             "id": "root:Environmental:Aquatic:Marine:Oceanic",
                             "links": {
-                                "self": "https://www.ebi.ac.uk/metagenomics/api/latest/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+                                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
                             }
                         }
-                    ],
+                    ]
+                },
+                "studies": {
+                    "links": {
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/studies"
+                    },
                     "meta": {
                         "count": 1
+                    },
+                    "data": [
+                        {
+                            "type": "studies",
+                            "id": "MGYS00002008",
+                            "links": {
+                                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002008"
+                            }
+                        }
+                    ]
+                },
+                "downloads": {
+                    "links": {
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/downloads"
                     }
                 },
                 "samples": {
                     "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/samples"
-                    }
-                },
-                "geocoordinates": {
-                    "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/geocoordinates"
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/samples"
                     }
                 },
                 "publications": {
                     "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/publications"
-                    }
-                },
-                "downloads": {
-                    "links": {
-                        "related": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736/downloads"
+                        "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410/publications"
                     }
                 }
             },
             "links": {
-                "self": "https://www.ebi.ac.uk/metagenomics/api/latest/studies/ERP001736"
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000410"
             }
         }
     }
 
-or using 3rd party python client jsonapi-client and pandas to export data to CSV:
+or using 3rd party Python client jsonapi-client and pandas to export data to CSV (the following example is compatible with Python 3.6 only):
 
     from pandas import DataFrame
     from jsonapi_client import Session, Filter
@@ -113,10 +119,10 @@ or using 3rd party python client jsonapi-client and pandas to export data to CSV
             sample.environment_biome,
             sample.environment_feature,
             sample.environment_material,
-    sample.longitude,
-    sample.latitude,
-    ]
-            df.to_csv('output.csv')
+            sample.longitude,
+            sample.latitude,
+        ]
+    df.to_csv('output.csv')
 
 For more examples, try our sample Jupyter notebook https://github.com/EBI-metagenomics/emgapi-examples/blob/master/emgapi/examples/notebook/answers/ANSWER_examples.ipynb 
 
