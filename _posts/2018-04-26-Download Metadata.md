@@ -10,7 +10,7 @@ layout: post
 ![Python script]({{site.baseurl}}/assets/media/images/posts/ico_code_EMG_grey.png)
 Need to compile metadata to perform trait associations using our metagenomic data? Interested in correlating species abundance with the origin of the sample to identify organisms associated with a particular environment or state? Try our latest metagenomics toolkit (called: “mg-toolkit”) - a beta version of a tool to enable scientists to download all of the sample metadata for a given study to a single csv file. Simply install as follows:
 
-    $ pip install --update mg-toolkit
+    $ pip install -u -U mg-toolkit
     $ mg-toolkit original_metadata -a ERP001736 
 
 or use it directly from within your Python script:
