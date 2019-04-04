@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title: The MGnify protein database: searching the microbial dark matter
+title: The MGnify protein database - Searching the microbial dark matter
 category: tools
 emg:
   text: Search protein database
@@ -14,7 +14,7 @@ As well as providing the files on our [FTP][ftp-server] server, we have used [HM
 
 We have added new options to the search page. In addition to the ability to search against full length proteins (from complete genes) or partial proteins (predicted to extend beyond the length of the assembled contig), users can now refine searches according to the top level environment/biome from which the matching sequences were derived. The results page has also been improved. Users can now access matched sequences directly by clicking on their accessions. Links to all matching MGnify samples and runs are also provided, along with links to any identical matching sequences in UniProtKB. An option to highlight full length sequence matches is also provided. For more information, see the README on the FTP server or our [documentation][documentation].
 
-[ftp-server]:        ftp://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database
-[hmmer-website]:     http://hmmer.org/
+[ftp-server]:        https://bit.ly/2I08RA4
+[hmmer-website]:     https://hmmer.org/
 [linclust-paper]:    https://www.nature.com/articles/s41467-018-04964-5
 [documentation]:     https://emg-docs.readthedocs.io/en/latest/sequence-search.html
