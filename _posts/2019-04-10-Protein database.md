@@ -1,12 +1,11 @@
 ---
 published: false
-category: tools
+layout: post
 title: The MGnify protein database: searching the microbial dark matter
+category: tools
 emg:
   text: Search protein database
-  url: >-
-    https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
-layout: post
+  url: https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
 ---
 ![Dark matter]({{site.baseurl}}/assets/media/images/posts/ico_code_EMG_grey.png)
 The MGnify protein sequence database comprises sequences predicted from assemblies generated from publicly available metagenomic datasets. The initial release in August 2017 comprised just under 50 million sequences; the current version contains in excess of 800 million. All sequences now have stable accessions.
