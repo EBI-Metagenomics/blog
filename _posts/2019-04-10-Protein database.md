@@ -7,7 +7,7 @@ emg:
   text: Search protein database
   url: https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer
 ---
-![Dark matter]({{site.baseurl}}/assets/media/images/posts/ico_code_EMG_grey.png)
+![Dark matter]({{site.baseurl}}/assets/media/images/posts/icon_milky_way.png)
 The MGnify protein sequence database comprises sequences predicted from assemblies generated from publicly available metagenomic datasets. The initial release in August 2017 comprised just under 50 million sequences; the current version contains in excess of 800 million. All sequences now have stable accessions.
 
 As well as providing the files on our [FTP][ftp-server] server, we have used [HMMER][hmmer-website] to provide sequence searches against this dataset. While we were initially able to provide searches against the full catalogue, the database growth has outpaced the compute resources required to make this feasible. To address this, searches are now restricted to a set of representative sequences obtained by clustering the full set based on sequence identity using [Linclust][linclust-paper]. The representative sequences nevertheless capture the diversity of the data, and the full database remains available via FTP. We have also added files which describe how the sequences are clustered.
