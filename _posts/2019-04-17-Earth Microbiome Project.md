@@ -16,6 +16,9 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 
 <a name="nature24621">1</a>: https://www.nature.com/articles/nature24621
 
+### List of EMP studies in MGnify
+[Download table](assets/media/exports/emp.csv)
+
 |  Biome  |      Accession      |  Study name |
 |:-------:|:-------------:|:------|
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_239.svg) | [MGYS00003922][MGYS00003922]   |   A combination of biochar-mineral complexes and compost improves soil bacterial processes, soil quality, and plant properties | |
