@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: The MGnify protein database - Searching the microbial dark matter
 category: tools
