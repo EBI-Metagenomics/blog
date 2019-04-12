@@ -116,7 +116,7 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 | Unprocessed studies | === | === |
 | ... | [ERP022167][ERP022167] | [MGnify QC not passed][mgnify_pipeline] |
 | ... | [ERP023684][ERP023684] | [MGnify QC not passed][mgnify_pipeline] |
-| ... | [ERP010098][ERP010098] | ENA processing failed |
+| ... | [ERP010098][ERP010098] | Failed ENA validation/processing |
 | ... | [ERP006348][ERP006348] | ENA suppressed at the submitter's request |
 
 [emp-website]:       http://www.earthmicrobiome.org/
