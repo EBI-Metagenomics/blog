@@ -12,7 +12,7 @@ The Earth Microbiome Project is now available in MGnify.
 
 The [Earth Microbiome Project][emp-website] (EMP)<sup>[1](#nature24621)</sup> is a wide ranging collaborative effort that attempts to characterise the taxonomic and functional diversity of microbial life on the planet. Founded in 2010, the project includes 96 different studies, comprising a total of Y individual [samples/sequencing runs] from a diverse range of biomes.
 
-Recently, we have started collaborating with GBIF (https://www.gbif.org/news/6ewyUhBpRYammYWI2CgsM4), who requested the analysis of the EMP data to increase the numner of land-based taxonomic observations. We have now analysed all of the EMP microbial sequencing data and made it available through MGnify. This provides a single point of discovery and ensures that all of the data has been processed consistently with the same analysis pipeline, making it easier to compare EMP datasets to each other and to other studies in the resource. The table below lists the analysis accessions and titles for all EMP studies to help explore this highly valuable project.
+Recently, we have started collaborating with [GBIF][gbif_website], who requested the analysis of the EMP data to increase the numner of land-based taxonomic observations. We have now analysed all of the EMP microbial sequencing data and made it available through MGnify. This provides a single point of discovery and ensures that all of the data has been processed consistently with the same analysis pipeline, making it easier to compare EMP datasets to each other and to other studies in the resource. The table below lists the analysis accessions and titles for all EMP studies to help explore this highly valuable project.
 
 <a name="nature24621">1</a>: https://www.nature.com/articles/nature24621
 
@@ -119,6 +119,7 @@ Recently, we have started collaborating with GBIF (https://www.gbif.org/news/6ew
 
 [emp-website]:       http://www.earthmicrobiome.org/
 [mgnify_pipeline]:   https://www.ebi.ac.uk/metagenomics/pipelines/4.1
+[gbif_website]:     https://www.gbif.org/news/6ewyUhBpRYammYWI2CgsM4
 [MGYS00002673]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00002673
 [MGYS00003659]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003659
 [MGYS00003922]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003922
