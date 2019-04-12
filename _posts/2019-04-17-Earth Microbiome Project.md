@@ -206,3 +206,6 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 [MGYS00003915]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003915
 [MGYS00003856]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003856
 [MGYS00003857]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003857
+[ERP022167]:         https://www.ebi.ac.uk/ena/data/view/ERP022167
+[ERP023684]:         https://www.ebi.ac.uk/ena/data/view/ERP023684
+[ERP010098]:         https://www.ebi.ac.uk/ena/data/view/ERP010098
