@@ -109,6 +109,9 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003915][MGYS00003915]   |   Urban stress is associated with variation in microbial species composition, but not richness, in Manhattan |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003856][MGYS00003856]   |   Viral communities associated with algal/coral interactions |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_369.svg) | [MGYS00003857][MGYS00003857]   |   Whole-grain wheat consumption reduces inflammation in a randomized controlled trial on overweight and obese subjects with unhealthy dietary and lifestyle behaviors: role of polyphenols bound to cereal dietary fiber |
+| ... | ERP022167 | QC not passed |
+| ... | ERP023684 | QC not passed |
+| ... | ERP010098 | Processing failed |
 
 [emp-website]:       http://www.earthmicrobiome.org/
 [MGYS00002673]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00002673
