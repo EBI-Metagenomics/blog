@@ -113,13 +113,16 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003856][MGYS00003856]   |   Viral communities associated with algal/coral interactions |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_369.svg) | [MGYS00003857][MGYS00003857]   |   Whole-grain wheat consumption reduces inflammation in a randomized controlled trial on overweight and obese subjects with unhealthy dietary and lifestyle behaviors: role of polyphenols bound to cereal dietary fiber |
 | Unprocessed studies | === | === |
-| ... | [ERP022167][ERP022167] | [mgnify_pipeline][MGnify QC not passed] |
-| ... | [ERP023684][ERP023684] | [mgnify_pipeline][MGnify QC not passed] |
+| ... | [ERP022167][ERP022167] | [MGnify QC not passed][mgnify_pipeline] |
+| ... | [ERP023684][ERP023684] | [MGnify QC not passed][mgnify_pipeline] |
 | ... | [ERP010098][ERP010098] | MGnify Processing failed |
+| ... | [ERP006348][ERP006348] | ENA suppressed at the submitter's request |
+| ... | [ERP016749][ERP016749] | ? |
+
 
 [emp-website]:       http://www.earthmicrobiome.org/
 [mgnify_pipeline]:   https://www.ebi.ac.uk/metagenomics/pipelines/4.1
-[gbif_website]:     https://www.gbif.org/news/6ewyUhBpRYammYWI2CgsM4
+[gbif_website]:      https://www.gbif.org/news/6ewyUhBpRYammYWI2CgsM4
 [MGYS00002673]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00002673
 [MGYS00003659]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003659
 [MGYS00003922]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003922
