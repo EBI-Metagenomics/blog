@@ -217,3 +217,4 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 [ERP022167]:         https://www.ebi.ac.uk/ena/data/view/ERP022167
 [ERP023684]:         https://www.ebi.ac.uk/ena/data/view/ERP023684
 [ERP010098]:         https://www.ebi.ac.uk/ena/data/view/ERP010098
+[ERP006348]:         https://www.ebi.ac.uk/ena/data/view/ERP006348
