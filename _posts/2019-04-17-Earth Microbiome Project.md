@@ -12,9 +12,12 @@ The Earth Microbiome Project is now available in MGnify.
 
 The [Earth Microbiome Project][emp-website] (EMP)<sup>[1](#nature24621)</sup> is a wide ranging collaborative effort that attempts to characterise the taxonomic and functional diversity of microbial life on the planet. Founded in 2010, the project includes 96 different studies, comprising a total of Y individual [samples/sequencing runs] from a diverse range of biomes.
 
-We have now analysed all of the EMP microbial sequencing data and made it available through MGnify. This provides a single point of discovery and ensures that all of the data has been processed consistently with the same analysis pipeline, making it easier to compare EMP datasets to each other and to other studies in the resource. The table below lists the analysis accessions and titles for all EMP studies to help explore this highly valuable project.
+Recently, we have started collaborating with [GBIF][gbif_website], who requested the analysis of the EMP data to increase the numner of land-based taxonomic observations. We have now analysed all of the EMP microbial sequencing data and made it available through MGnify. This provides a single point of discovery and ensures that all of the data has been processed consistently with the same analysis pipeline, making it easier to compare EMP datasets to each other and to other studies in the resource. The table below lists the analysis accessions and titles for all EMP studies to help explore this highly valuable project.
 
 <a name="nature24621">1</a>: https://www.nature.com/articles/nature24621
+
+### List of EMP studies in MGnify
+[Download table](assets/media/exports/emp.csv)
 
 |  Biome  |      Accession      |  Study name |
 |:-------:|:-------------:|:------|
@@ -57,6 +60,7 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003765][MGYS00003765]   |   Halophilic Communities as a Source for Novel Lignocellulolytic Enzymes |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003698][MGYS00003698]   |   Hawaii Kohala Volcanic Soils |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_229.svg) | [MGYS00003963][MGYS00003963]   |   Influence of tillage practices on soil microbial diversity and activity in a long-term corn experimental field under continuous maize production |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_229.svg) | [MGYS00004557][MGYS00004557]   |   Intergenerational Lizard Lounges do not Explain Variation in the Gut Microbiomes of Green Iguanas |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_237.svg) | [MGYS00003812][MGYS00003812]   |   Jurelivicius Antarctic cleanup |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003854][MGYS00003854]   |   Kilauea geothermal soils and biofilms |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_267.svg) | [MGYS00003925][MGYS00003925]   |   Knight skin biogeography comparison |
@@ -110,12 +114,14 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003856][MGYS00003856]   |   Viral communities associated with algal/coral interactions |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_369.svg) | [MGYS00003857][MGYS00003857]   |   Whole-grain wheat consumption reduces inflammation in a randomized controlled trial on overweight and obese subjects with unhealthy dietary and lifestyle behaviors: role of polyphenols bound to cereal dietary fiber |
 | Unprocessed studies | === | === |
-| ... | [ERP022167][ERP022167] | [mgnify_pipeline][MGnify QC not passed] |
-| ... | [ERP023684][ERP023684] | [mgnify_pipeline][MGnify QC not passed] |
+| ... | [ERP022167][ERP022167] | [MGnify QC not passed][mgnify_pipeline] |
+| ... | [ERP023684][ERP023684] | [MGnify QC not passed][mgnify_pipeline] |
 | ... | [ERP010098][ERP010098] | MGnify Processing failed |
+| ... | [ERP006348][ERP006348] | ENA suppressed at the submitter's request |
 
 [emp-website]:       http://www.earthmicrobiome.org/
 [mgnify_pipeline]:   https://www.ebi.ac.uk/metagenomics/pipelines/4.1
+[gbif_website]:      https://www.gbif.org/news/6ewyUhBpRYammYWI2CgsM4
 [MGYS00002673]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00002673
 [MGYS00003659]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003659
 [MGYS00003922]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003922
@@ -207,6 +213,8 @@ We have now analysed all of the EMP microbial sequencing data and made it availa
 [MGYS00003915]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003915
 [MGYS00003856]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003856
 [MGYS00003857]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00003857
+[MGYS00004557]:      https://www.ebi.ac.uk/metagenomics/studies/MGYS00004557
 [ERP022167]:         https://www.ebi.ac.uk/ena/data/view/ERP022167
 [ERP023684]:         https://www.ebi.ac.uk/ena/data/view/ERP023684
 [ERP010098]:         https://www.ebi.ac.uk/ena/data/view/ERP010098
+[ERP006348]:         https://www.ebi.ac.uk/ena/data/view/ERP006348
