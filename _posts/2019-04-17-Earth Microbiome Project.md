@@ -21,42 +21,42 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 
 |  Biome  |      Accession      |  Study name |
 |:-------:|:-------------:|:------|
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_239.svg) | [MGYS00003922][MGYS00003922]   |   A combination of biochar-mineral complexes and compost improves soil bacterial processes, soil quality, and plant properties | |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_105.svg) | [MGYS00003869][MGYS00003869]   |   A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from eutrophic Lake Mendota, WI, USA |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_239.svg) | [MGYS00003917][MGYS00003917]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms - kakamenga |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_239.svg) | [MGYS00003921][MGYS00003921]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms -swkenya |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_171.svg) | [MGYS00003855][MGYS00003855]   |   Anaerobic ammonium-oxidizing bacteria in marine environments: widespread occurrence but low diversity |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_105.svg) | [MGYS00003962][MGYS00003962]   |   Bacterial Community Spatial and Temporal Variation in a North Temperate Bog Lake |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_134.svg) | [MGYS00003867][MGYS00003867]   |   Bergen Ocean Acidification Mesocosms |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_195.svg) | [MGYS00003687][MGYS00003687]   |   Biodiversity and Functional Patterns of Microbial Assemblages in Postglacial Pond Sediment Profiles |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_165.svg) | [MGYS00003806][MGYS00003806]   |   Biogeographical distribution and diversity of microbes in methane hydrate-bearing deep marine sediments on the Pacific Ocean Margin |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_171.svg) | [MGYS00003809][MGYS00003809]   |   Bioturbating shrimp alter the structure and diversity of bacterial communities in coastal marine sediments |
+| ![soil icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003922][MGYS00003922]   |   A combination of biochar-mineral complexes and compost improves soil bacterial processes, soil quality, and plant properties | |
+| ![lake icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_lake.svg) | [MGYS00003869][MGYS00003869]   |   A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from eutrophic Lake Mendota, WI, USA |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003917][MGYS00003917]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms - kakamenga |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003921][MGYS00003921]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms -swkenya |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003855][MGYS00003855]   |   Anaerobic ammonium-oxidizing bacteria in marine environments: widespread occurrence but low diversity |
+| ![lake icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_lake.svg) | [MGYS00003962][MGYS00003962]   |   Bacterial Community Spatial and Temporal Variation in a North Temperate Bog Lake |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003867][MGYS00003867]   |   Bergen Ocean Acidification Mesocosms |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_freshwater.svg) | [MGYS00003687][MGYS00003687]   |   Biodiversity and Functional Patterns of Microbial Assemblages in Postglacial Pond Sediment Profiles |
+| ![marine icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003806][MGYS00003806]   |   Biogeographical distribution and diversity of microbes in methane hydrate-bearing deep marine sediments on the Pacific Ocean Margin |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003809][MGYS00003809]   |   Bioturbating shrimp alter the structure and diversity of bacterial communities in coastal marine sediments |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_319.svg) | [MGYS00003666][MGYS00003666]   |   Bird Egg Shells from Spain |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_140.svg) | [MGYS00003909][MGYS00003909]   |   Brazelton LostCity chimney biofilm |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003754][MGYS00003754]   |   Brazilian Antarctic cleanup 16S |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003807][MGYS00003807]   |   Canadian MetaMicroBiome Initiative samples from |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_421.svg) | [MGYS00003708][MGYS00003708]   |   Catchment sources of microbes |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_132.svg) | [MGYS00003780][MGYS00003780]   |   Catlin Arctic Survey 2010 L3 |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003769][MGYS00003769]   |   Chu Changbai mountain soil |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_466.svg) | [MGYS00003677][MGYS00003677]   |   Continental-scale variation in seaweed host-associated bacterial communities is a function of host condition, not geography |
+| ![hydrothermalvents icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_hydrothermalvents.svg) | [MGYS00003909][MGYS00003909]   |   Brazelton LostCity chimney biofilm |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003754][MGYS00003754]   |   Brazilian Antarctic cleanup 16S |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003807][MGYS00003807]   |   Canadian MetaMicroBiome Initiative samples from |
+| ![gut icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_gut.svg) | [MGYS00003708][MGYS00003708]   |   Catchment sources of microbes |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003780][MGYS00003780]   |   Catlin Arctic Survey 2010 L3 |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003769][MGYS00003769]   |   Chu Changbai mountain soil |
+| ![plant icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_plant.svg) | [MGYS00003677][MGYS00003677]   |   Continental-scale variation in seaweed host-associated bacterial communities is a function of host condition, not geography |
 | ![mammals icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_mammals.svg) | [MGYS00002673][MGYS00002673] | Convergence of gut microbiomes in myrmecophagous mammals |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_132.svg) | [MGYS00003750][MGYS00003659]   |   Defining seasonal marine microbial community dynamics |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003759][MGYS00003659]   |   Distinct microbial communities associated with buried soils in the Siberian tundra. |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_165.svg) | [MGYS00003810][MGYS00003810]   |   Diversity of carbonate deposits and basement rocks in continental and marine serpentinite seeps. |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_409.svg) | [MGYS00003800][MGYS00003800]   |   Dominguez sleep deprived flies |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_242.svg) | [MGYS00003786][MGYS00003786]   |   Environmental metagenomic interrogation of Thar desert microbial communities |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_356.svg) | [MGYS00003911][MGYS00003911]   |   Ercolini whole grain feces |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_85.svg) | [MGYS00003852][MGYS00003852]   |   Examination of Microbial Communities through a Freshwater/saltwater Transition Zone in Cenotes, Yucatan, Mexico |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_239.svg) | [MGYS00003785][MGYS00003785]   |   Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm. |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_421.svg) | [MGYS00003670][MGYS00003670]   |   Ezenwa Cape Buffalo |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_220.svg) | [MGYS00003916][MGYS00003916]   |   Friedman Alaska peat soils |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003750][MGYS00003659]   |   Defining seasonal marine microbial community dynamics |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003759][MGYS00003659]   |   Distinct microbial communities associated with buried soils in the Siberian tundra. |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_marine.svg) | [MGYS00003810][MGYS00003810]   |   Diversity of carbonate deposits and basement rocks in continental and marine serpentinite seeps. |
+| ![insect icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_insect.svg) | [MGYS00003800][MGYS00003800]   |   Dominguez sleep deprived flies |
+| ![desert icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_desert.svg) | [MGYS00003786][MGYS00003786]   |   Environmental metagenomic interrogation of Thar desert microbial communities |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_gut.svg) | [MGYS00003911][MGYS00003911]   |   Ercolini whole grain feces |
+| ![default icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_default.svg) | [MGYS00003852][MGYS00003852]   |   Examination of Microbial Communities through a Freshwater/saltwater Transition Zone in Cenotes, Yucatan, Mexico |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003785][MGYS00003785]   |   Exploring links between pH and bacterial community composition in soils from the Craibstone Experimental Farm. |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_gut.svg) | [MGYS00003670][MGYS00003670]   |   Ezenwa Cape Buffalo |
+| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_soil.svg) | [MGYS00003916][MGYS00003916]   |   Friedman Alaska peat soils |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_322.svg) | [MGYS00003681][MGYS00003681]   |   Garcia bird gut microbiome |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_195.svg) | [MGYS00003699][MGYS00003699]   |   Geographic distance and pH drive bacterial distribution in alkaline lake sediments across Tibetan Plateau |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_121.svg) | [MGYS00003851][MGYS00003851]   |   Gibbons tongue river 16S |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003957][MGYS00003957]   |   Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample - 3 prime |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_105.svg) | [MGYS00003864][MGYS00003864]   |   Great Lake Microbiome |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_421.svg) | [MGYS00003951][MGYS00003951]   |   Gut microbiome of hibernating bears |
-| ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_421.svg) | [MGYS00003923][MGYS00003923]   |   Gut microbiota of phyllostomid bats that span a breadth of diets |
+| ![gut icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_gut.svg) | [MGYS00003951][MGYS00003951]   |   Gut microbiome of hibernating bears |
+| ![gut icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_gut.svg) | [MGYS00003923][MGYS00003923]   |   Gut microbiota of phyllostomid bats that span a breadth of diets |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003765][MGYS00003765]   |   Halophilic Communities as a Source for Novel Lignocellulolytic Enzymes |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_492.svg) | [MGYS00003698][MGYS00003698]   |   Hawaii Kohala Volcanic Soils |
 | ![mixed icon]({{site.baseurl}}/assets/media/images/posts/biome_icons/biome_229.svg) | [MGYS00003963][MGYS00003963]   |   Influence of tillage practices on soil microbial diversity and activity in a long-term corn experimental field under continuous maize production |
