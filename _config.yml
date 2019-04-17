@@ -68,6 +68,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - .idea/
 
 # Global settings
 timezone: Europe/London

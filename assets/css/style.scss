@@ -1,12 +1,11 @@
----
----
-
 //
 // IMPORTS
 //
 
-@import "reset";
-@import "variables";
+@import "{{ site.theme }}";
+@import "../../_sass/reset";
+@import "../../_sass/variables";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -85,7 +84,7 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
   }
@@ -139,6 +138,7 @@ img {
   color: $black;
   background: $lightGray;
 }
+
 ::selection {
   color: $black;
   background: $lightGray;
@@ -148,12 +148,12 @@ img {
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*********************/
@@ -277,7 +277,7 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
-  
+
   img {
     margin: 0 1rem 1rem 0;
     float: left;
@@ -322,7 +322,22 @@ footer {
   text-align: center;
 }
 
+.biome_icon {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+td, th {
+  vertical-align: middle;
+  padding: 0 1em;
+}
+
+tr {
+  padding: 0.5em;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
+@import "../../_sass/highlights";
+@import "../../_sass/svg-icons";
