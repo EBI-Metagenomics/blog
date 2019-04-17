@@ -2,8 +2,14 @@
 // IMPORTS
 //
 
+<<<<<<< HEAD:style.scss
 @import "_sass/reset";
 @import "_sass/variables";
+=======
+@import "{{ site.theme }}";
+@import "../../_sass/reset";
+@import "../../_sass/variables";
+>>>>>>> develop:assets/css/style.scss
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -338,5 +344,10 @@ tr {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+<<<<<<< HEAD:style.scss
 @import "_sass/highlights";
 @import "_sass/svg-icons";
+=======
+@import "../../_sass/highlights";
+@import "../../_sass/svg-icons";
+>>>>>>> develop:assets/css/style.scss
