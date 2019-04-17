@@ -20,7 +20,7 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 |  Biome  |      Accession      |  Study name |
 |:-------:  |:------------------ | :------------------: |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_lake.svg" width="50" height="50" /> | [MGYS00003922][MGYS00003922]   |   A combination of biochar-mineral complexes and compost improves soil bacterial processes, soil quality, and plant properties | |
-| <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_lake.svg" width="50" height="50" /> | [MGYS00003869][MGYS00003869]  |   A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from eutrophic Lake Mendota, WI, USA |
+| <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003869][MGYS00003869]  |   A decade of seasonal dynamics and co-occurrences within freshwater bacterioplankton communities from eutrophic Lake Mendota, WI, USA |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003917][MGYS00003917]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms - kakamenga |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003921][MGYS00003921]   |   Agricultural intensification and the functional capacity of soil microbes on smallholder African farms -swkenya |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_marine.svg" width="50" height="50" /> | [MGYS00003855][MGYS00003855]   |   Anaerobic ammonium-oxidizing bacteria in marine environments: widespread occurrence but low diversity |
@@ -33,7 +33,7 @@ Recently, we have started collaborating with [GBIF][gbif_website], who requested
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_hydrothermalvents.svg" width="50" height="50" /> | [MGYS00003909][MGYS00003909]   |   Brazelton LostCity chimney biofilm |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003754][MGYS00003754]   |   Brazilian Antarctic cleanup 16S |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003807][MGYS00003807]   |   Canadian MetaMicroBiome Initiative samples from |
-| <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_gut.svg" width="50" height="50" /> | [MGYS00003708][MGYS00003708]   |   Catchment sources of microbes |
+| <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_mammals.svg" width="50" height="50" /> | [MGYS00003708][MGYS00003708]   |   Catchment sources of microbes |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_marine.svg" width="50" height="50" /> | [MGYS00003780][MGYS00003780]   |   Catlin Arctic Survey 2010 L3 |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_soil.svg" width="50" height="50" /> | [MGYS00003769][MGYS00003769]   |   Chu Changbai mountain soil |
 | <img align="middle" src="/blog/assets/media/images/posts/biome_icons/biome_plant.svg" width="50" height="50" /> | [MGYS00003677][MGYS00003677]   |   Continental-scale variation in seaweed host-associated bacterial communities is a function of host condition, not geography |
