@@ -8,11 +8,9 @@ emg:
 layout: post
 ---
 ![Word Cloud showing common terms in MGnify publication annotations]({{site.baseurl}}/assets/media/images/posts/publication-annotations/cloud.png){:width="136px"} 
-## Annotations on MGnify Publications – powered by Europe PMC
-
 Paper annotations are now available for publications linked to metagenomic studies on MGnify, powered by [Europe PMC](https://europepmc.org).
 
-
+## Annotations on MGnify Publications – powered by Europe PMC
 ![Screen recording of publication annotations page]({{site.baseurl}}/assets/media/images/posts/publication-annotations/demo_2_low.gif){:width="100%"}
 
 
