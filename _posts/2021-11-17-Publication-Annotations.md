@@ -8,7 +8,7 @@ emg:
 layout: post
 ---
 ![Word Cloud showing common terms in MGnify publication annotations]({{site.baseurl}}/assets/media/images/posts/publication-annotations/cloud.png){:width="136px"} 
-Paper annotations are now available for publications linked to metagenomic studies on MGnify, powered by [Europe PMC](https://europepmc.org).
+Automated annotations are now available for publications linked to metagenomic studies on MGnify, powered by [Europe PMC](https://europepmc.org).
 
 ## Annotations on MGnify Publications – powered by Europe PMC
 ![Screen recording of publication annotations page]({{site.baseurl}}/assets/media/images/posts/publication-annotations/demo_2_low.gif){:width="100%"}
@@ -27,7 +27,7 @@ Within MGnify, these complement the snapshots of metadata derived from ENA and B
 
 The improved [Publications pages](https://www.ebi.ac.uk/metagenomics/browse#publications) of the MGnify website lists these Annotations alongside any related Samples.
 
-In the current feature release (October 2021) , 625/869 of the publications linked in MGnify  have metagenomic annotations available. An average publication with available  annotations has 69 tags and paper extracts, which are visualised as a hierarchical tree in MGnify for easy browsing of the terms and their context. 
+At the time of writing (November 2021), 625/869 of the publications linked in MGnify  have metagenomic annotations available. An average publication with available  annotations has 69 tags and paper extracts, which are visualised as a hierarchical tree in MGnify for easy browsing of the terms and their context. 
 
 The extracted terms cover a rich array of metagenomic metadata, and the most common annotation type is generally descriptions of samples.
 
