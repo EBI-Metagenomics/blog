@@ -33,4 +33,4 @@ The extracted terms cover a rich array of metagenomic metadata, and the most com
 
 ![Bar chart showing which annotation types are more common, e.g. State]({{site.baseurl}}/assets/media/images/posts/publication-annotations/annotations_count.png){:width="100%"} 
 
-Jump into this [paper about Kombucha](https://wwwdev.ebi.ac.uk/metagenomics/publications/31957879) to try it out and let us know what you think.
+Jump into this [paper about Kombucha](https://www.ebi.ac.uk/metagenomics/publications/31957879) to try it out and let us know what you think.
