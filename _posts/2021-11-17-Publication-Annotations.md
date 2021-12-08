@@ -1,6 +1,6 @@
 ---
 published: true
-category: spotlight
+category: tools
 emg:
   text: Browse Publications
   url: >-
