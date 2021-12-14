@@ -1,6 +1,7 @@
 ---
 published: true
 category: spotlight
+title: Cow rumen v1.0 MAG catalogue released
 emg:
   text: Browse Catalogue
   url: >-
@@ -8,7 +9,6 @@ emg:
 layout: post
 ---
 ![Illustration of a catalogue with a taxonomic tree]({{site.baseurl}}/assets/media/images/posts/cow-rumen-mag-catalogue/rumen_bacteria_tree_assembled.png){:width="136px"} 
-## Cow rumen catalogue v1.0 release
 MGnify is delighted to announce the release of our latest [MAG catalogue](https://www.ebi.ac.uk/metagenomics/genome-catalogues/cow-rumen-v1-0), comprising 2729 species-level cluster representative genomes derived from cow rumen datasets. 
 
 This catalogue is based on the Watson-lab rumen-uncultured genomes (RUGs) set published by [Stewart _et al. Nature Biotech_ (2019)](https://doi.org/10.1038/s41587-019-0202-3), and was generated as part of a collaboration between MGnify and the Watson-lab funded by [BBSRC](https://gtr.ukri.org/projects?ref=BB%2FR015228%2F1). 
