@@ -6,7 +6,7 @@ layout: post
 emg:
   text: Anvi'o live prototype
   url: >-
-    https://www.ebi.ac.uk/metagenomics
+    http://anvio.mgnify.org
 carousels:
   - images:
     - image: /blog/assets/media/images/posts/anvio/SRR12480113_metabat2_3_MERGED.svg 
@@ -24,7 +24,7 @@ In the coming months, we will be expanding MGnify Genomes to include eukaryotic 
 As part of the [BlueRemediomics](https://blueremediomics.eu) project, we have been investigating how to leverage the Anvi’o [Eren *et al.* (2021)](https://doi.org/10.1038/s41564-020-00834-3) interactive interface for visualising genomes and their derived sample composition. Here, we share our prototype of Anvi’o visualisations of MGnify-generated eukaryotic MAGs. The eukaryotic MAGs were generated for the same datasets used in the [Marine v2.0](https://www.ebi.ac.uk/metagenomics/genome-catalogues/marine-v2-0) prokaryotic genome catalogue. Here the MAGs were generated for each study in the dataset, on a sample by sample basis. Subsequently, all the MAGs were de-replicated together to remove redundancy, resulting in 12 species-level clusters, 8 of which comprised more than one genome. These 8 species-representative genomes were taxonomically classified into two families of green algae from the order *Mamiellales*. For these 8 species clusters, we mapped the read sequences pertaining to each sample that produced a genome in the species cluster, onto the species-representative genome and compiled them into Anvi’o profiles.
 
 {% include carousel.html height="100%" duration="20" number="1" %}
-**Figure 1. Hierarchical clustering of sample reads mapped to contig regions in genomes visualised with Anvi’o. The images are generated from Anvi’o profiles compiled from samples which contributed to 8 genomes. Access the [interactive version](https://www.ebi.ac.uk/metagenomics) for one example genome.**
+**Figure 1. Hierarchical clustering of sample reads mapped to contig regions in genomes visualised with Anvi’o. The images are generated from Anvi’o profiles compiled from samples which contributed to 8 genomes. Access the [interactive version](http://anvio.mgnify.org) for one example genome.**
 
 Visual representation of the hierarchical clustering of contigs in a eukaryotic genome by sample composition can allow a user to identify contigs which map uniquely to a subset of samples - indicating potentially contaminated contigs. More information on refinement can be found in the [Anvi’o blogs](https://merenlab.org/2015/05/11/anvi-refine/).
 
