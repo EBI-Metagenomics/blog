@@ -16,7 +16,6 @@ This catalogue was generated as part of our work with the [MRC funded National M
 The total genomes in the catalogue were quality-filtered and clustered using the catalogue generation process as described in [Gurbich *et al.* (2023)](https://doi.org/10.1016/j.jmb.2023.168016). An overview of the process is shown in [Figure 1](#fig-dataflow) and the resulting taxonomic diversity of the mouse gut catalogue is represented in [Figure 2](#fig-tree).
 
 ![Schematic illustration of dataflow from three existing catalogues and newly assemblyed MAGs into the new unified catalogue]({{site.baseurl}}/assets/media/images/posts/mouse-gut/dataflow.png){:width="100%" id="fig-dataflow"}
-
 **Figure 1: Overview of catalogue generation.** The mouse gut catalogue was generated from a combination of newly-assembled MAGs derived from publicly-available Whole Genome Shotgun (WGS) datasets, and existing genomes from three external catalogues. The MGnify Genomes pipeline (as described in [Gurbich *et al.* (2023)](https://doi.org/10.1016/j.jmb.2023.168016)) was used to produce the final mouse gut catalogue.
 
 
