@@ -1,6 +1,6 @@
 ---
 published: true
-category: spotlight
+category: tools
 title: Anvi’o visualisations for refinement of Eukaryotic MAGs
 layout: post
 emg:
