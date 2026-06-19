@@ -6,6 +6,17 @@ category: tools
 emg:
   text: Checkout the new MGnify Proteins release
   url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        table {
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
+        }
+        </style>
 ---
 ![MGnify Proteins Schematic]({{site.baseurl}}/assets/media/images/posts/mgnify-proteins-schematic.png)
 
@@ -24,6 +35,20 @@ A significant update with this release is the generation of all MGnify Proteins 
 - Native compression: Parquet is a naturally compressed file format, with data types allowing for more efficient storing of this data.
 - Partial reading: Using tools like [DuckDB](https://duckdb.org/) that support partial reading on Parquet files, it is possible to make remote queries without downloading the entire source file, unlike with regular flat file formats like `.tsv`.
 
-The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/). Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them.
+The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and can be queried with DuckDB like this:
+
+```sql
+SELECT *
+FROM 'https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/mgy_protein_sequences.parquet'
+WHERE protein_id = 1;
+```
+Output:
+
+| protein_id | full_length |                                                                sequence                                                                |
+|-----------:|-------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| 1          | true        | MQARVKWVEGLTFIGESASGHQILMDGNSGDKAPSPMEMVLMAAGGCSAIDVVSILQKGRHEVTNCEVKLTSERREEAPRLFTHINLHFIVTGKALKDAAVSRAVDLSAEKYCSVALMLEKAVKITHSYEVIEA |
+
+Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them.
+
 
 [^1]: Buchfink BJ, Barbé É, Ashkenazy H, Reuter K, Kennedy JA, Drost HG, "Clustering the protein universe of life using DIAMOND DeepClust", Nature Methods 23, 724-727 (2026). doi:10.1038/s41592-026-03030-z
