@@ -1,11 +1,11 @@
 ---
 published: true
 layout: post
-title: MGnify Proteins release - 2026_05
+title: MGnify Proteins release - 2026_06
 category: tools
 emg:
   text: Checkout the new MGnify Proteins release
-  url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_05/
+  url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/
 ---
 ![MGnify Proteins Schematic]({{site.baseurl}}/assets/media/images/posts/mgnify-proteins-schematic.png)
 
@@ -24,4 +24,4 @@ A significant update with this release is the generation of all MGnify Proteins 
 - Native compression: Parquet is a naturally compressed file format, with data types allowing for more efficient storing of this data.
 - Partial reading: Using tools like [DuckDB](https://duckdb.org/) that support partial reading on Parquet files, it is possible to make remote queries without downloading the entire source file, unlike with regular flat file formats like `.tsv`.
 
-The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_05/). Please see the README (TODO: add link) for information about the schemas of each Parquet file, and our documentation (TODO: add link) for examples of how to use them.
+The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/). Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them.
