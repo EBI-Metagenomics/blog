@@ -26,11 +26,8 @@ We're happy to announce a new release of the [MGnify Proteins database](https://
     <img src="{{site.baseurl}}/assets/media/images/posts/mgnify-proteins-growth-2026-07.png" alt="MGnify Proteins growth as of July 2026" style="width:100%;" id="fig-dataflow"/>
 </figure>
 
-<<<<<<< HEAD
-Like with previous releases, the files for the release are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/) and the [MGnify Sequence Search](https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer). 
-=======
-Like with previous releases, the files for the release are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/) and the [HMMER web server](https://www.ebi.ac.uk/Tools/hmmer/search/phmmer?database=mgnify30_c2). 
->>>>>>> b2a52bfe9ab5bdf0c4e0b1c1a33122988e8d729d
+Like with previous releases, the files for the release are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/) and the [HMMER web server](https://www.ebi.ac.uk/Tools/hmmer/search/phmmer?database=mgnify30_c2). 
+
 
 A significant update with this release is the generation of all MGnify Proteins data in the [Apache Parquet](https://parquet.apache.org/) file format, as part of a shift in how we plan to distribute MGnify Proteins files going forward. There are numerous advantages to this shift:
 
