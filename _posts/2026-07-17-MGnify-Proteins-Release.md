@@ -5,8 +5,8 @@ title: MGnify Proteins release - 2026_07
 category: spotlight
 use_plotly: true
 emg:
-  text: Checkout the new MGnify Proteins release
-  url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/
+  text: Search MGnify Proteins
+  url: https://www.ebi.ac.uk/Tools/hmmer/search/phmmer?database=mgnify30_c2
 ---
 
 ![MGnify Proteins Schematic]({{site.baseurl}}/assets/media/images/posts/mgnify-proteins-growth-2026-07.png){:width="400px"}
@@ -76,5 +76,7 @@ This release of the pipeline has expanded biome coverage. Human-related datasets
   </figcaption>
 </figure>
 
+
+If you have any feedback or questions about the latest release of MGnify Proteins or any other MGnify resource, please [get in touch!](https://www.ebi.ac.uk/about/contact/support/metagenomics)
 
 [^1]: Buchfink BJ, Barbé É, Ashkenazy H, Reuter K, Kennedy JA, Drost HG, "Clustering the protein universe of life using DIAMOND DeepClust", Nature Methods 23, 724-727 (2026). doi:10.1038/s41592-026-03030-z
