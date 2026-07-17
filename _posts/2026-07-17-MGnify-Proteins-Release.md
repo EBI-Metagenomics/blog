@@ -21,6 +21,8 @@ The release also includes 1.6 billion cluster representatives computed by [DIAMO
     </figcaption>
 </figure>
 
+## Parquet-based release of MGnify Proteins
+
 A significant update with this release is the generation of all MGnify Proteins data in the [Apache Parquet](https://parquet.apache.org/) file format, as part of a shift in how we plan to distribute MGnify Proteins files going forward. There are numerous advantages to this shift:
 
 - Columnar data access: As Parquet is a columnar data format, certain query structures that are commonly used to search MGnify Proteins metadata become significantly faster, as only columns of interest need to be searched.
@@ -54,6 +56,9 @@ WHERE protein_id = 46;
 </div>
 
 Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them. More in-depth release statistics about the release can also be found [here](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/STATS.md)
+
+## Expanded biome coverage
+
 
 This release of the pipeline has expanded biome coverage. Human-related datasets have historically dominated the database, but with the latest release we have broadened representation across environmental, engineered, and non-human host-associated biomes, as shown in Figure 2, resulting in a more diverse distribution of protein sequences across the database.
 
