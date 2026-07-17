@@ -33,13 +33,13 @@ A significant update with this release is the generation of all MGnify Proteins 
 - Columnar data access: As Parquet is a columnar data format, certain query structures that are commonly used to search MGnify Proteins metadata become significantly faster, as only columns of interest need to be searched. Columnar data similarly allows for partial reading of remote files.
 - Native schemas: Parquet stores metadata about each column within a file - including data types - much like a relational database. These schemas allow for a more explicit data structure, more robust data validation, and more efficient queries e.g. querying based on integer identifiers in a Parquet file vs flat-files without a schema like `.tsv`, the possibility of applying [Bloom filters](https://simple.wikipedia.org/wiki/Bloom_filter), etc.
 - Native compression: Parquet is a naturally compressed file format, with data types allowing for more efficient storing of this data.
-- Partial reading: Using tools like [DuckDB](https://duckdb.org/) that support partial reading on Parquet files, it is possible to make remote queries without downloading the entire source file, unlike with regular flat file formats like `.tsv`.
+- Partial reading: Partial reading makes it possible to query remote Parquet data without downloading the entire source file.
 
-The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and can be queried with DuckDB like this:
+The ecosystem for working with Parquet is broad, with support in most major programming languages and tools like [DuckDB](https://duckdb.org/). The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and can be queried with DuckDB like this:
 
 ```sql
 SELECT *
-FROM 'https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/mgy_protein_sequences.parquet'
+FROM 'https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/mgy_protein_sequences.parquet'
 WHERE protein_id = 1;
 ```
 Output:
