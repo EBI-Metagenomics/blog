@@ -1,11 +1,11 @@
 ---
 published: true
 layout: post
-title: MGnify Proteins release - 2026_06
+title: MGnify Proteins release - 2026_07
 category: tools
 emg:
   text: Checkout the new MGnify Proteins release
-  url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/
+  url: https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/
 format:
   html:
     include-in-header:
@@ -23,10 +23,10 @@ format:
 We're happy to announce a new release of the [MGnify Proteins database](https://www.ebi.ac.uk/metagenomics/proteins/). The [last release of the database](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2024_04/) in April 2024 aggregated over 2.4 billion non-redundant protein sequences generated from publicly available metagenomic datasets. This latest release significantly increases the scale even further, with over 5.7 billion non-redundant protein sequences available, including 1.6 billion cluster representatives computed by [DIAMOND/Linclust](https://github.com/bbuchfink/diamond)[^1] at 90% sequence identity (MGnify90). Three filtered down subsets originating from MGnify90 were also generated at 30% sequence identity, which we refer to as "MGnify30".
 
 <figure>
-    <img src="{{site.baseurl}}/assets/media/images/posts/mgnify-proteins-growth-2026.png" alt="MGnify Proteins growth as of June 2026" style="width:100%;" id="fig-dataflow"/>
+    <img src="{{site.baseurl}}/assets/media/images/posts/mgnify-proteins-growth-2026-07.png" alt="MGnify Proteins growth as of July 2026" style="width:100%;" id="fig-dataflow"/>
 </figure>
 
-Like with previous releases, the files for the release are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/) and the [MGnify Sequence Search](https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer). 
+Like with previous releases, the files for the release are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/) and the [MGnify Sequence Search](https://www.ebi.ac.uk/metagenomics/sequence-search/search/phmmer). 
 
 A significant update with this release is the generation of all MGnify Proteins data in the [Apache Parquet](https://parquet.apache.org/) file format, as part of a shift in how we plan to distribute MGnify Proteins files going forward. There are numerous advantages to this shift:
 
@@ -35,7 +35,7 @@ A significant update with this release is the generation of all MGnify Proteins 
 - Native compression: Parquet is a naturally compressed file format, with data types allowing for more efficient storing of this data.
 - Partial reading: Partial reading makes it possible to query remote Parquet data without downloading the entire source file.
 
-The ecosystem for working with Parquet is broad, with support in most major programming languages and tools like [DuckDB](https://duckdb.org/). The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/), and can be queried with DuckDB like this:
+The ecosystem for working with Parquet is broad, with support in most major programming languages and tools like [DuckDB](https://duckdb.org/). The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and can be queried with DuckDB like this:
 
 ```sql
 SELECT *
@@ -48,7 +48,7 @@ Output:
 |-----------:|-------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 1          | true        | MQARVKWVEGLTFIGESASGHQILMDGNSGDKAPSPMEMVLMAAGGCSAIDVVSILQKGRHEVTNCEVKLTSERREEAPRLFTHINLHFIVTGKALKDAAVSRAVDLSAEKYCSVALMLEKAVKITHSYEVIEA |
 
-Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_06/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them.
+Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/README.md) for information about the schemas of each Parquet file, and our [documentation](https://docs.mgnify.org/src/docs/mgnify-proteins-parquet-queries.html) for examples of how to use them.
 
 
 [^1]: Buchfink BJ, Barbé É, Ashkenazy H, Reuter K, Kennedy JA, Drost HG, "Clustering the protein universe of life using DIAMOND DeepClust", Nature Methods 23, 724-727 (2026). doi:10.1038/s41592-026-03030-z
