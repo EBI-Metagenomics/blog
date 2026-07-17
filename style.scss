@@ -123,6 +123,12 @@ strong, b {
   font-weight: bold;
 }
 
+sup {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+}
+
 img {
   max-width: 100%;
 }
