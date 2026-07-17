@@ -1,0 +1,22 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Build the Jekyll site in Docker (http://127.0.0.1:4000/blog/)
+    cmds:
+    - |
+      mkdir -p build &&
+      docker run --rm \
+      --volume "$PWD:/srv/jekyll" \
+      --volume "$PWD/build:/srv/jekyll/_site" \
+      jekyll/jekyll jekyll build
+
+  serve:
+    desc: Serve the Jekyll site locally in Docker
+    cmds:
+      - |
+        docker run --rm \
+        --volume "$PWD:/srv/jekyll" \
+        -p 4000:4000 \
+        jekyll/jekyll \
+        jekyll serve --host 0.0.0.0 --port 4000
