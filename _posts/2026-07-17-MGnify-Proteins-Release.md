@@ -12,7 +12,7 @@ emg:
 ![MGnify Proteins Schematic]({{site.baseurl}}/assets/media/images/posts/mgnify-proteins-growth-2026-07.png){:width="400px"}
 We are happy to announce a new release of the [MGnify Proteins database](https://www.ebi.ac.uk/metagenomics/proteins/). The [last release of the database](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2024_04/) in April 2024 aggregated over 2.4 billion non-redundant protein sequences generated from publicly available metagenomic datasets. This latest release more than doubles that figure, with over 5.7 billion non-redundant protein sequences now available.
 
-The release also includes 1.6 billion cluster representatives computed by [DIAMOND/Linclust](https://github.com/bbuchfink/diamond)[^1] at 90% sequence identity (MGnify90). From this set, three further-filtered subsets were generated at 30% sequence identity, which we refer to collectively as "MGnify30". As with previous releases, all files are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/). The [HMMER web server](https://www.ebi.ac.uk/Tools/hmmer/search/phmmer?database=mgnify30_c2) now also supports searches against the three MGnify30 subsets. 
+The release also includes over 1.6 billion cluster representatives computed by [DIAMOND/Linclust](https://github.com/bbuchfink/diamond)[^1] at 90% sequence identity (MGnify90). From this set, three further-filtered subsets were generated at 30% sequence identity, which we refer to collectively as "MGnify30". As with previous releases, all files are available on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and this release is supported on the [MGnify Proteins Portal](https://www.ebi.ac.uk/metagenomics/proteins/). The [HMMER web server](https://www.ebi.ac.uk/Tools/hmmer/search/phmmer?database=mgnify30_c2) now also supports searches against the three MGnify30 subsets. 
 
 <figure style="text-align: center;">
     <img src="{{site.baseurl}}/assets/media/images/posts/mgnify-proteins-schematic.png" alt="MGnify Proteins growth as of July 2026" style="width: 60%;float: none" id="fig-dataflow"/>
@@ -30,7 +30,7 @@ A significant update with this release is the generation of all MGnify Proteins 
 - <strong>Native compression:</strong> Parquet is a compressed file format designed for efficient storage, with data types that help store data more efficiently.
 - <strong>Partial reading:</strong> Partial reading makes it possible to query remote Parquet data without downloading the entire source file.
 
-The ecosystem for working with Parquet is broad, with support in most major programming languages and tools like [DuckDB](https://duckdb.org/). The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and can be queried with DuckDB like this:
+The ecosystem for working with Parquet is broad, with support in most major programming languages, and with tools like [DuckDB](https://duckdb.org/). The Parquet files for the MGnify database are available alongside the usual flat files on our [FTP server](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2026_07/), and can be queried with DuckDB like this:
 
 ```sql
 SELECT *
@@ -60,7 +60,7 @@ Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide
 ## Expanded biome coverage
 
 
-This release of the pipeline has expanded biome coverage. Human-related datasets have historically dominated the database, but with the latest release we have broadened representation across environmental, engineered, and non-human host-associated biomes, as shown in Figure 2, resulting in a more diverse distribution of protein sequences across the database.
+This release of MGnify Proteins has expanded biome coverage. Human-related datasets have historically dominated the database, but with the latest release we have continued to broaden representation across environmental, engineered, and non-human host-associated biomes, as shown in Figure 2, resulting in a more diverse distribution of protein sequences across the database.
 
 <figure style="text-align: center;">
 <div id="3016eed6-38a1-46b3-8118-46bac1f93918" class="plotly-graph-div" style="height:100%; width:100%; margin-left: 25%;"></div>
