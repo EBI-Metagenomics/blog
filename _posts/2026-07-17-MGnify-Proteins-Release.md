@@ -60,7 +60,7 @@ Please see the [README](https://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide
 ## Expanded biome coverage
 
 
-This release of MGnify Proteins has expanded biome coverage. Human-related datasets have historically dominated the database, but with the latest release we have continued to broaden representation across environmental, engineered, and non-human host-associated biomes, as shown in Figure 2, resulting in a more diverse distribution of protein sequences across the database.
+This release of MGnify Proteins has expanded biome coverage. Human-related datasets have historically dominated the database, but with the latest release we have continued to broaden representation across all biomes, as shown in Figure 2, resulting in significantly more protein occurrences from environmental, engineered, and non-human host-associated biomes than before.
 
 <figure style="text-align: center;">
 <div id="3016eed6-38a1-46b3-8118-46bac1f93918" class="plotly-graph-div" style="height:100%; width:100%; margin-left: 25%;"></div>
