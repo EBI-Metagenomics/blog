@@ -31,6 +31,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  text-align: justify;
 }
 
 #main {
@@ -120,6 +121,12 @@ em, i {
 
 strong, b {
   font-weight: bold;
+}
+
+sup {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
 }
 
 img {

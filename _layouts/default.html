@@ -8,6 +8,12 @@
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    {% if page.use_plotly %}
+      <script src="https://cdn.plot.ly/plotly-3.6.0.min.js" charset="utf-8"></script>
+      <script>
+        window.PlotlyConfig = {MathJaxConfig: 'local'};
+      </script>
+    {% endif %}
   </head>
 
   <body>
