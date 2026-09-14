@@ -28,8 +28,8 @@ All submission is performed programmatically using ENA's [Webin-CLI](https://ena
 The pipeline currently supports four modes:
 
 - **`reads`** — registers raw sequencing reads and their EXPERIMENT/RUN metadata (platform, instrument, library strategy, insert size, etc.), returning ERX/ERR accessions that downstream modes use as their source-RUN reference.
-- **`metagenomic_assemblies`** — validates assembly FASTA files (contig IDs, minimum contig count, optional removal of human contigs), computes coverage with [CoverM](https://github.com/wwood/CoverM) where it isn't already known, and submits the assembly via *[assembly_uploader](https://github.com/EBI-Metagenomics/assembly_uploader)*.
-- **`mags`** and **`bins`** — submit MAGs and bins, gathering additional mandatory metadata such as NCBI taxonomy, genome completeness and contamination, and environmental context (broad environment, local environment, environmental medium), before submitting via *[genome_uploader](https://github.com/EBI-Metagenomics/genome_uploader)*.
+- **`metagenomic_assemblies`** — validates assembly FASTA files (contig IDs, minimum contig count, optional removal of human contigs), computes coverage where it isn't already known, and submits the assembly via *[assembly_uploader](https://github.com/EBI-Metagenomics/assembly_uploader)*.
+- **`mags`** and **`bins`** — submit MAGs and bins, gathering additional mandatory metadata such as coverage depth, RNA presence/absence, NCBI taxonomy, genome completeness and contamination, and environmental context (provided by user as input metadata), before submitting via *[genome_uploader](https://github.com/EBI-Metagenomics/genome_uploader)*.
 
 For each submitted type of data, the pipeline reports the ENA-assigned accession in a summary table, ready to be cited or cross-referenced.
 
