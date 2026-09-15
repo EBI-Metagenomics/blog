@@ -8,7 +8,7 @@ emg:
   url: https://github.com/nf-core/seqsubmit
 ---
 ![Seqsubmit Logo]({{site.baseurl}}/assets/media/images/posts/seqsubmit/nfcore-seqsubmit-logo-hex-light.png){:width="120px"}
-We are pleased to announce the **first release of [nf-core/seqsubmit](https://nf-co.re/seqsubmit)**, a new Nextflow pipeline that automates the submission of sequencing data — reads, assemblies, bined contigs (bins) and metagenome-assembled genomes (MAGs) — to the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/)). 
+We are pleased to announce the **first release of [nf-core/seqsubmit](https://nf-co.re/seqsubmit)**, a new Nextflow pipeline that automates the submission of sequencing data — reads, metagenomic assemblies, bined contigs (bins) and metagenome-assembled genomes (MAGs) — to the European Nucleotide Archive ([ENA](https://www.ebi.ac.uk/ena/)). 
 
 ## Data sharing problem
 The scientific community generates a huge amount of nucleotide sequencing data but only a fraction is uploaded to public repositories, which greatly hinders its usability. Researchers must navigate complex database schemas, digest lengthy documentation, manually organise metadata according to strict specifications, and execute multiple interdependent steps. As a result, submission is either delayed or abandoned altogether, depriving the community of potentially valuable resources. _nf-core/seqsubmit_ was started at the nf-core Hackathon 2025/2026 as a community-driven effort to remove that bottleneck.
@@ -28,15 +28,15 @@ All submission is performed programmatically using ENA's [Webin-CLI](https://ena
 The pipeline currently supports four modes:
 
 - **`reads`** — registers raw sequencing reads and their EXPERIMENT/RUN metadata (platform, instrument, library strategy, insert size, etc.), returning ERX/ERR accessions that downstream modes use as their source-RUN reference.
-- **`metagenomic_assemblies`** — validates assembly FASTA files (contig IDs, minimum contig count, optional removal of human contigs), computes coverage where it isn't already known, and submits the assembly via *[assembly_uploader](https://github.com/EBI-Metagenomics/assembly_uploader)*.
-- **`mags`** and **`bins`** — submit MAGs and bins, gathering additional mandatory metadata such as coverage depth, RNA presence/absence, NCBI taxonomy, genome completeness and contamination, and environmental context (provided by user as input metadata), before submitting via *[genome_uploader](https://github.com/EBI-Metagenomics/genome_uploader)*.
+- **`metagenomic_assemblies`** — validates assembly FASTA files (contig IDs and minimum contig count), computes coverage where it isn't already known, and submits the assembly via *[assembly_uploader](https://github.com/EBI-Metagenomics/assembly_uploader)*.
+- **`mags`** and **`bins`** — submit MAGs and bins, gathering additional mandatory metadata such as coverage depth, rRNA and tRNA genes presence/absence, NCBI taxonomy, genome completeness and contamination, and environmental context (provided by user as input metadata), before submitting via *[genome_uploader](https://github.com/EBI-Metagenomics/genome_uploader)*.
 
-For each submitted type of data, the pipeline reports the ENA-assigned accession in a summary table, ready to be cited or cross-referenced.
+For each submitted type of data, the pipeline reports the ENA-assigned accession in a summary table.
 
 ## Results
-
-Beyond its own test suite, _nf-core/seqsubmit_ has already been used in production by a partner project to submit its data to ENA, resulting in over 26,000 bins and MAGs and thousands of assemblies deposited.
+Beyond its own test suite, _nf-core/seqsubmit_ has already been used in production by a partner project to submit its data to ENA, resulting in 26,621 bins, 4,756 MAGs, and 801 assemblies deposited.
 
 ## Future work
+A major hurdle users still face is registering Studies and Samples with ENA. This process involves selecting and organising the appropriate metadata, linking Samples to their corresponding sequencing-run files, and manually editing manifest files and spreadsheets. As a result, registration remains time-consuming and error-prone. Our team is actively working with ENA to develop utilities that streamline these steps and simplify the registration process.
 
 As the project grows, we hope to attract collaborators familiar with NCBI and DDBJ submission systems, so that _nf-core/seqsubmit_ can expand beyond ENA to support the full INSDC collaboration. 
